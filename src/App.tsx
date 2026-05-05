@@ -10,7 +10,7 @@ function App() {
      <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage/>} />
+        <Route path="/Shopping-App" element={<HomePage/>} />
         <Route path="/product/:id" element={<ProductPage/>} />
       </Routes>
     </>

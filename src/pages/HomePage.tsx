@@ -9,7 +9,7 @@ export function HomePage() {
             <div className={styles.productList}>
                 {products.map((product) => (
                     <Link to={`/product/${product.id}`}
-                    key={product.id}>
+                        key={product.id}>
                         <div className={styles.product}> 
                             <img src={product.image}/>
                             <h4>Price: {product.price}</h4>

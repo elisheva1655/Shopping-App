@@ -5,7 +5,7 @@ export function NavBar(){
     <>
         <ul className={styles.myList} >
             <li className={styles.storeName}>The Supply Shop</li>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/Shopping-App">Home</Link></li>
         </ul>
     </>
     )

@@ -33,7 +33,7 @@ type Product = {
                     <p className={styles.price}>Price: {product?.price}</p>
                     <p className={styles.descr}>Description: {product?.description}</p>
                     <p className={styles.rating}>Rating: {product?.rating}</p>
-                    <Link to="/">
+                    <Link to="/Shopping-App">
                         <button className={styles.back}>Back</button>
                     </Link>
                 </div>
